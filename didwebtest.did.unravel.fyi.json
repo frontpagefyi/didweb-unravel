@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1",
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
+  ],
+  "id": "did:web:didwebtest.did.unravel.fyi",
+  "alsoKnownAs": ["at://didwebtest.did.unravel.fyi"],
+  "verificationMethod": [
+    {
+      "id": "did:web:didwebtest.did.unravel.fyi#atproto",
+      "type": "Multikey",
+      "controller": "did:web:didwebtest.did.unravel.fyi",
+      "publicKeyMultibase": "zDnaev8kpwoTrFn68BdZ3buN5zQkw7CUBBmzciZQJaWYk9hYC"
+    }
+  ],
+  "service": [
+    {
+      "id": "#atproto_pds",
+      "type": "AtprotoPersonalDataServer",
+      "serviceEndpoint": "https://pds.unravel.fyi"
+    }
+  ]
+}
