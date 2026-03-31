@@ -1,5 +1,3 @@
-import didwebtest from "../didwebtest.did.unravel.fyi.json";
-
 export default {
   async fetch(request: Request): Promise<Response> {
     const host = new URL(request.url).host;
