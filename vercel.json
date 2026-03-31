@@ -4,6 +4,10 @@
     {
       "src": "/.well-known/did.json",
       "dest": "/api/did"
+    },
+    {
+      "src": "/.well-known/atproto-did",
+      "dest": "/api/atproto-did"
     }
   ]
 }

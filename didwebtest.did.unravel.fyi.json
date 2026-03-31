@@ -5,7 +5,7 @@
     "https://w3id.org/security/suites/secp256k1-2019/v1"
   ],
   "id": "did:web:didwebtest.did.unravel.fyi",
-  "alsoKnownAs": ["at://didwebtest.did.unravel.fyi"],
+  "alsoKnownAs": ["at://didwebtest.unravel.fyi"],
   "verificationMethod": [
     {
       "id": "did:web:didwebtest.did.unravel.fyi#atproto",
