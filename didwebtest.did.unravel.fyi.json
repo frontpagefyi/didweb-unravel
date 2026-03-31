@@ -11,7 +11,7 @@
       "id": "did:web:didwebtest.did.unravel.fyi#atproto",
       "type": "Multikey",
       "controller": "did:web:didwebtest.did.unravel.fyi",
-      "publicKeyMultibase": "zDnaev8kpwoTrFn68BdZ3buN5zQkw7CUBBmzciZQJaWYk9hYC"
+      "publicKeyMultibase": "zQ3shwPqqXevixvSxzyZDzM4kT7jczfrKcZhDGob2TaCqjXxD"
     }
   ],
   "service": [
