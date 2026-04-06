@@ -1,15 +1,13 @@
-export default {
-  async fetch(request: Request): Promise<Response> {
-    const host = new URL(request.url).host;
-    if (host === "didwebtest.did.unravel.fyi") {
-      return new Response("did:web:didwebtest.did.unravel.fyi", {
-        headers: {
-          // allow CORS for all origins
-          "Access-Control-Allow-Origin": "*",
-        },
-      });
-    } else {
-      return new Response("Not Found", { status: 404 });
-    }
-  },
-};
+export async function GET(request: Request): Promise<Response> {
+  const host = new URL(request.url).host;
+  if (host === "didwebtest.did.unravel.fyi") {
+    return new Response("did:web:didwebtest.did.unravel.fyi", {
+      headers: {
+        // allow CORS for all origins
+        "Access-Control-Allow-Origin": "*",
+      },
+    });
+  } else {
+    return new Response("Not Found", { status: 404 });
+  }
+}
